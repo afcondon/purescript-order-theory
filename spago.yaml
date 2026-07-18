@@ -1,0 +1,32 @@
+package:
+  name: order-theory
+  description: >
+    Order theory as a first-class library: join/meet semilattices with the
+    partial order derived from the operation, closure operators and Galois
+    connections as values, executable laws as plain Boolean predicates
+    (bring your own generator), and fixpoint iteration. The library has no
+    test-framework dependency; the laws are ordinary functions.
+  publish:
+    version: 0.1.0
+    license: MIT
+    location:
+      githubOwner: afcondon
+      githubRepo: purescript-order-theory
+  dependencies:
+    - foldable-traversable: ">=6.0.0 <7.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - newtype: ">=5.0.0 <6.0.0"
+    - ordered-collections: ">=3.0.0 <4.0.0"
+    - prelude: ">=6.0.2 <7.0.0"
+    - tuples: ">=7.0.0 <8.0.0"
+  test:
+    main: Test.Main
+    dependencies:
+      - arrays
+      - assert
+      - console
+      - effect
+      - quickcheck
+workspace:
+  packageSet:
+    registry: 73.3.0
