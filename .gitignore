@@ -3,3 +3,4 @@ output/
 node_modules/
 .psc-ide-port
 .purs-repl
+.direnv/
