@@ -1,11 +1,6 @@
 package:
   name: order-theory
-  description: >
-    Order theory as a first-class library: join/meet semilattices with the
-    partial order derived from the operation, closure operators and Galois
-    connections as values, executable laws as plain Boolean predicates
-    (bring your own generator), and fixpoint iteration. The library has no
-    test-framework dependency; the laws are ordinary functions.
+  description: "Order theory as values: semilattices whose order is derived from join, closure operators, Galois connections, fixpoint iteration, and laws as plain Boolean predicates with no test-framework dependency"
   publish:
     version: 0.1.0
     license: MIT
